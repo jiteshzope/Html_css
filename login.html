@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML and CSS</title>
+    <link rel="stylesheet" href="./login.css">
+</head>
+<body>
+    <div class="navbar">
+        <div class="nav-options-wrapper">
+            <div class="nav-option"><a href="./index.html">Home</a></div>
+            <div class="nav-option"><a href="./login.html">Login</a></div>
+            <div class="nav-option"><a href="./contact.html">Contact Us</a></div>
+        </div>
+    </div>
+    <div class="login-section">
+        <input type="text" name="userName" id="userName" placeholder="Enter Username">
+        <input type="password" name="userPassword" id="userPassword" placeholder="Enter Password">
+        <button class="submit-btn">Submit</button>
+    </div>
+    <div class="footer-section">
+        <div class="footer-items-wrapper">
+            <div class="footer-item" onclick="navigateTo('./terms.html')">Terms & Conditions</div>
+            <div class="footer-item" onclick="navigateTo('./privacy.html')">Privacy Policy</div>
+            <div class="footer-item" onclick="navigateTo('./learn_more.html')">Learn More....</div>
+        </div>
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>
